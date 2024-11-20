@@ -1,0 +1,48 @@
+*{
+    font-family: Arial, sans-serif;
+}
+
+body{
+    background-color: #f8f9fa;
+}
+
+h1,h2{
+font-size: 30px;
+color: #00008b;
+}
+
+.gradient{
+    background: linear-gradient(to right, #add8e6, #00008b);
+    padding: 20px;
+    text-align: center;
+    color: white;
+}
+
+ul{
+    list-style-type: none; 
+    padding: 0;
+    margin: 0;
+    display: flex; 
+    justify-content: space-around;
+}
+
+a:hover{
+    color: aqua;
+}
+
+.intro {
+    background-color: #007bff ; 
+    color: #ffffff ; 
+    padding: 20px; 
+    text-align: center; 
+}
+
+
+.content {
+    background-color: #ffffff ; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+    padding: 20px; 
+    margin: 20px auto; 
+    max-width: 800px; 
+    text-align: center; 
+}
